@@ -1,0 +1,4 @@
+function changeOption(x) {
+	maiden.myoption.value = x;
+	if (confirm("Are you sure?")) maiden.submit();
+}
